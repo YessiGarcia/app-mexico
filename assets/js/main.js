@@ -1,6 +1,6 @@
 var espacioImagen = document.getElementById("modal");
 var imgMostrar = document.getElementById("imagenNueva");
-var imagenes = document.getElementsByClassName("imgWork");
+var imagenes = document.getElementsByClassName("imgMx");
 var span = document.getElementById("close");
 
 span.addEventListener("click",cerrar);
