@@ -1,0 +1,106 @@
+/*porcentajes COLUMNAS*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 3200px;
+  margin: 0px auto;
+}
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+
+[class*="col-"] {
+  min-height: 7px;
+  padding: 12px;
+  float: left;
+}
+
+.col-1 {
+  width: 8.333333%;
+}
+.col-1md {
+  width: 12.5%;
+}
+.col-2 {
+  width: 16.666667%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.333333%;
+}
+.col-5 {
+  width: 41.666667%;
+}
+.col-6 {
+  width: 50%
+}
+.col-7 {
+  width: 58.333333%;
+}
+.col-8 {
+  width: 66.666664%;
+}
+.col-9 {
+  width: 74.999997%;
+}
+.col-10 {
+  width: 83.333333%;
+}
+.col-11 {
+  width: 91.666663%;
+}
+.col-12 {
+  width: 100%;
+}
+
+/*fin porcentaje COLUMNAS*/
+
+
+#titulo2, #titulo1, .titulo1{
+	text-align: center;
+}
+
+#titulo1, .titulo1 {
+	font-size: 45px;
+}
+#titulo2 {
+	font-size: 35px;
+}
+#rojo {
+	text-align: right;
+	background-color: #ce1126;
+	color:  #ce1126;
+}
+#verde {
+	background-color: #006847;
+	color: #006847;
+}
+#blanco {
+	background-image: url(../images/escudo.png);
+	background-color: white;
+	}
+/*.container-titulo, .container-imagenes */
+body{
+	background-image: url(../images/papel.png);
+	width: 100%;
+}
+#linkLab {
+	text-align: right;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+#linkLab:hover {
+	color: yellow;
+}
