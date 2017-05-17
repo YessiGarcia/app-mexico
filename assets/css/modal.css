@@ -19,7 +19,7 @@
 }
 #close {
     color: #f1f1f1 ;
-    font-size: 40px;
+    font-size: 10px;
     font-weight: bold;
     transition: 0.3s;
     position: absolute;
@@ -29,4 +29,10 @@
   display: inline-block;
   background-color: transparent;
   border-color: transparent;
+}
+
+.texto{
+  padding-top: 20%;
+  color: white;
+  font-size: 20px;
 }
