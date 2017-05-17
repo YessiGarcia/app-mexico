@@ -11,7 +11,7 @@ for(var i=0;i<imagenes.length;i++){
 
 function mostrar(){
   espacioImagen.style.display="block";
-  imgMostrar.src=this.src;
+  imgMostrar.src=this.name;
 };
 function cerrar(){
   espacioImagen.style.display="none";

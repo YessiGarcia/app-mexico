@@ -2,66 +2,85 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <script src="https://use.fontawesome.com/3634a5e73d.js"></script>
+    <link rel="stylesheet" href="assets/css/overlay.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <title>VivaMexico</title>
   </head>
   <body>
     <section class="container">
-      <header class="row">
-          <section class="col-4" id="verde">
+      <header class="row" id="banderaMx">
+          <section class="col-4 bandera" id="verde">
             <h1 class="titulo1">WE ARE MEXICO</h1>
           </section>
-          <section class="col-4" id="blanco">
+          <section class="col-4 bandera" id="blanco">
             <h1 id="titulo1">WE ARE MEXICO</h1>
           </section>
-          <section class="col-4" id="rojo">
+          <section class="col-4 bandera" id="rojo">
             <h1 class="titulo1">WE ARE MEXICO</h1>
          </section>
-         <a href="#" id="linkLab">LaboratoriaMexico</a>
       </header>
       <section class="row container-titulo">
-        <h2 id="titulo2">In Mexico..</h2>
+        <i class="fa fa-user-o" aria-hidden="true"></i>
+        <a href="laboratoria.la" id="linkLab">LaboratoriaMexico</a>
       </section>
-      <section class="row">
-        <section class="col-1-5"></section>
-        <section class="col-3">
-          <img src="" alt="" class="imgMx">
-          <img src="" alt="" class="imgMx">
-          <img src="" alt="" class="imgMx">
+      <section class="row" id="imagenes">
+        <section class="col-4">
+          <img name="assets\images\finales\gastronomia.jpg" src="assets/images/Loteria-ElCamaron.jpg" class="imgMx">
+          <span class="textoModal">In 2010 Mexican gastronomy was recognized as Intangible Cultural Heritage of Humanity.</span>
+          <img name="assets\images\finales\calidez.jpg" src="assets/images/Loteria-ElCorazon.jpg" class="imgMx">
+          <span class="textoModal">Mexico is considered one of the five most friendly countries with foreigners.</span>
+          <img name="assets\images\finales\diversion.jpg"src="assets/images/Loteria-ElDiablito.jpg"  alt="" class="imgMx">
+          <span class="textoModal"></span>
         </section>
-        <section class="col-3">
-          <img src="" alt="" class="imgMx">
-          <img src="" alt="" class="imgMx">
-          <img src="" alt="" class="imgMx">
+        <section class="col-4">
+          <img name="assets\images\finales\paisaje.jpg" src="assets/images/Loteria-ElMundo.jpg" class="imgMx">
+          <span class="textoModal">It is the 1st tourist destination in Latin America and the tenth most visited in the world.
+            Between 10% and 12% of all species in the world can be found in our territory. More than 37,266 archeological sites have been registered.</span>
+          <img name="assets\images\finales\calidez.jpg" src="assets/images/Loteria-ElValiente"  class="imgMx">
+          <span class="textoModal"></span>
+          <img name="assets\images\finales\cultura.jpg"src="assets/images/Loteria-LaChalupa.jpg" alt="" class="imgMx">
+          <span class="textoModal">Around 287 languages ​​are spoken in Mexico, and is the seventh country with the greatest linguistic diversity in the world:
+            the state recognizes Spanish as a national language along with 67 native languages ​​of the nation</span>
         </section>
-        <section class="col-3">
-          <img src="" alt="" class="imgMx">
-          <img src="" alt="" class="imgMx">
-          <img src="" alt="" class="imgMx">
+        <section class="col-4">
+          <img name="assets\images\finales\trabajo.jpg"src="assets/images/Loteria-LaDama.jpg" alt="" class="imgMx">
+          <span class="textoModal">We are the people who work the most hours worldwide with an average of 2,246 hours a year,
+            this is twice the working hours of countries like Germany where 1,371 hours is the average.</span>
+          <img name="assets\images\finales\progreso.jpg"src="assets/images/Loteria-LaEscalera.jpg" alt="" class="imgMx">
+          <span class="textoModal">Internet coverage increased by 5% from 2014 to date.</span>
+          <img name="assets\images\finales\laboratoria.jpg"src="assets/images/Laboratoria1.jpg" alt="" class="imgMx">
+          <span class="textoModal"></span>
         </section>
-        <section class="col-1-5"></section>
+
       </section>
-      <section id="modal" class="myModal">
-        <section class="col-2"></section>
-        <section class="col-8">
-          <img class="modal-content" id="imagenNueva">
-        </section>
-        <section class="col-2">
-          <span id="close">&times;</span>
-        </section>
+    </section>
+    <section id="modal" class="myModal">
+      <section class="col-5-"></section>
+      <section class="col-6">
+        <img class="modal-content" id="imagenNueva">
       </section>
+      <section class="col-4-5">
+        <span id="textoNuevo"></span>
+      </section>
+      <section class="col-1">
+        <span id="close">&times;</span>
+      </section>
+
+    </section>
       <footer>
         <section class="col-4"></section>
         <section class="col-4">
-          <h6>LaboratoriaMexico 2017<br>
-          ¡4ta Generación!</h6>
+          <h4>LaboratoriaMexico 2017<br>
+          ¡4ta Generación!</h4>
         </section>
         <section class="col-4"></section>
       </footer>
     </section>
 
     <!-- Insertar aqui el script-->
-
+    <script src="assets\js\main.js"></script>
   </body>
 </html>
